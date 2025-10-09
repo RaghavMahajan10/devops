@@ -1,0 +1,15 @@
+Git Commands and notes 
+
+1: git config --global user.name "RaghavMahajan10" - it will set the GitHub user name in local git 
+
+2: git config --global user.Email "rvm10091998@gmail.com" - it will set the GitHub email in local git
+
+3: git config --list - it will all configs which we set or by default set
+
+4: git init - create git repo in local machine 
+
+5: git add . or git add file = it will add all or particular file in staging env
+
+6: git commit -m "message in this" - it will store code in local repository
+
+7: git commit -M branch_name - it will rename the local branch 
