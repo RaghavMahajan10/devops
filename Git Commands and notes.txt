@@ -8,8 +8,20 @@ Git Commands and notes
 
 4: git init - create git repo in local machine 
 
-5: git add . or git add file = it will add all or particular file in staging env
+5: git add . or git add file = it will add all or particular file in staging area(temp storage) from working dir
 
 6: git commit -m "message in this" - it will store code in local repository
 
-7: git commit -M branch_name - it will rename the local branch 
+7: git branch -M <branch_name> - it will rename the local branch 
+
+8: git remote add origin <git_repo_url> - it will set the repo to which code will pushed , fetched , pull
+
+9: git push origin main - it will push code to remote repo
+
+10: git push -u origin main - it will push code to remote repo and make sure next time if  just write git push it will push code to same branch u dont need to specifies origin main
+
+11: git status - it will tell which file is added, modified, deleted etc
+
+12: git restore filename - it will undo the changed , it will work on changes before code is committed
+
+13: git restore --staged filename  - it will unstage the changes of the file present in stage   
