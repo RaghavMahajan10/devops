@@ -31,3 +31,5 @@ Git Commands and notes
 15: git log --oneline - it will give list of commit we done so far with no description or single line info
 
 16: git revert commit_id - it will revert the changes of that particular commit jiski tumne id fi hai and yeh new commit banata hai
+
+17: wrong1
