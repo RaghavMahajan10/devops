@@ -25,3 +25,5 @@ Git Commands and notes
 12: git restore filename - it will undo the changed , it will work on changes before code is committed
 
 13: git restore --staged filename  - it will unstage the changes of the file present in stage   
+
+14: wrong revert karde changes 
