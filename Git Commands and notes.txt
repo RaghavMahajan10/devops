@@ -33,3 +33,5 @@ Git Commands and notes
 16: git revert commit_id - it will revert the changes of that particular commit jiski tumne id fi hai and yeh new commit banata hai
 
 17: wrong1
+
+18: wrong2
