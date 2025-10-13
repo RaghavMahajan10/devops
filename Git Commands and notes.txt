@@ -36,10 +36,22 @@ Git Commands and notes
 a: soft - it will undo the commit and delete the commit and keep changes on stage 
 b: mixed - it will undo the commit and delete the commit and keep changes on working dicrectory
 C: hard - it will undo the commit and delete the commit and also remove changes from working dicrectory
+Note: One commit is pushed we cannot delete it from there from local machine 
 
 
 # Difference bw git revert and reset 
 revert will create new commit with undoing the changes,when working with team use revert 
 reset will not create new commit with undoing the changes, when working without team then we can use
+
+18: Alias - creating alias open .gitconfig file from root directory (~) then add like below
+[alias]
+st = status
+cmt = commit -m
+
+or from command line 
+
+git config --global alias.st status
+git config --global alias.cmt commit -m
+
 
  
