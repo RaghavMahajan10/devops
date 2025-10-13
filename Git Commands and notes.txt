@@ -53,5 +53,12 @@ or from command line
 git config --global alias.st status
 git config --global alias.cmt commit -m
 
+19: git branch <branch_name> - it will create new branch 
+
+20: git checkout|switch <branch_name> - it will switch to branch
+
+21: git checkout -b <branch_name> - it will create new branch and also switch to that branch
+
+22: git switch -c <branch_name> - it will create new branch and also switch to that branch
 
  
