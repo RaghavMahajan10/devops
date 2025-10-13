@@ -30,4 +30,11 @@ Git Commands and notes
 
 15: git log --oneline - it will give list of commit we done so far with no description or single line info
 
-16: git revert commit_id - it will revert the changes of that particular commit jiski tumne id fi hai and yeh new commit banata hai
+16: git revert commit_id - it will revert the changes of that particular commit jiski tumne id di hai and yeh new commit banata hai
+
+17: git reset commit_id - it will revert the changes of that particular commit jiski tumne id di hai and yeh new commit nhi banata hai
+
+# Difference bw git revert and reset 
+revert will create new commit with undoing the changes,when working with team use revert 
+reset will not create new commit with undoing the changes, when working without team then we can use
+ 
