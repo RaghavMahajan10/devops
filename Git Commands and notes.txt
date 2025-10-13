@@ -37,4 +37,6 @@ Git Commands and notes
 # Difference bw git revert and reset 
 revert will create new commit with undoing the changes,when working with team use revert 
 reset will not create new commit with undoing the changes, when working without team then we can use
- 
+
+
+#dummy push
