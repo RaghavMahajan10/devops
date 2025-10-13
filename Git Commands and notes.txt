@@ -61,4 +61,6 @@ git config --global alias.cmt commit -m
 
 22: git switch -c <branch_name> - it will create new branch and also switch to that branch
 
- 
+23 git merge <branch_name_from_which_changes_need_to_pick> - it is used to merge the changed from one branch to other
+branch to which branch u need to merge go to that branch and then write above command
+
