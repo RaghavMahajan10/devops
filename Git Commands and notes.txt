@@ -77,3 +77,5 @@ or just git commit --amend - it will open file
 
 29: how to deploy static website on git hub https://youtu.be/OFeJVNtBs8k?si=tQeph0lZ8kSl5O_Q
 Steps Go to Settings > click on page > select branch > save
+
+30: deploying react app on git hub - https://youtu.be/foMOj0uDkZ0?si=B2aOxIGXGLzinv6C
