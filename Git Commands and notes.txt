@@ -70,3 +70,9 @@ or just git commit --amend - it will open file
 25: git clone <repo_url> - it will download the code from remote repo
 
 26: git clone --branch <branch_name> <repo_url> - it will download specific branch
+
+27: git fetch - it will download the changes but will not apply to working directory 
+
+28: git pull - it will download and also apply changes to work directory 
+
+29: how to deploy static website on git hub https://youtu.be/OFeJVNtBs8k?si=tQeph0lZ8kSl5O_Q
