@@ -85,3 +85,5 @@ a: git diff - work directory level
 b: git diff --staged - stage level 
 c: git diff origin/main  - branch level 
 d: git commit commit_id_1 commit_id_2  - commit level
+
+32: git commit -a -m "message" - this command will help to add changes to stage area 
