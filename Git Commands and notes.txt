@@ -76,3 +76,4 @@ or just git commit --amend - it will open file
 28: git pull - it will download and also apply changes to work directory 
 
 29: how to deploy static website on git hub https://youtu.be/OFeJVNtBs8k?si=tQeph0lZ8kSl5O_Q
+Steps Go to Settings > click on page > select branch > save
