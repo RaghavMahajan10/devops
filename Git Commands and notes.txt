@@ -79,3 +79,9 @@ or just git commit --amend - it will open file
 Steps Go to Settings > click on page > select branch > save
 
 30: deploying react app on git hub - https://youtu.be/foMOj0uDkZ0?si=B2aOxIGXGLzinv6C
+
+31: git diff - it will tell u what changes u made in file at work directory level, at stage level, at commit level and at remote level
+a: git diff - work directory level
+b: git diff --staged - stage level 
+c: git diff origin/main  - branch level 
+d: git commit commit_id_1 commit_id_2  - commit level
