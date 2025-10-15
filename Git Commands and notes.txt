@@ -87,3 +87,11 @@ c: git diff origin/main  - branch level
 d: git commit commit_id_1 commit_id_2  - commit level
 
 32: git commit -a -m "message" - this command will help to add changes to stage area 
+
+33: git stash - it will remove the changes temporary , usecase when u need to change branch and dont
+want to bring this branch change to other branch 
+a: git stash apply - it will bring back the changes but it will not remove from stash memomry basically
+it will copy stash changes 
+b: git stash pop - it will bring back the changes and also remove it from stash memory 
+c: git stash list - to check list of stash 
+ 
