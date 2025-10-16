@@ -1,0 +1,13 @@
+name: First Job
+
+On:
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+    -name: running command on Linux
+     run: echo "raghav is super"
