@@ -11,3 +11,17 @@ jobs:
     steps:
     - name: running command on Linux
       run: echo "raghav is super"
+
+
+name: second jobs
+on:
+  schedule:
+    - cron: '5 * * * *'
+
+jobs:
+  demo2:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Scheduling command on Linux
+      run: echo "raghav is super demo2"
