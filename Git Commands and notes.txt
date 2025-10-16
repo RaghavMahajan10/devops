@@ -94,4 +94,6 @@ a: git stash apply - it will bring back the changes but it will not remove from 
 it will copy stash changes 
 b: git stash pop - it will bring back the changes and also remove it from stash memory 
 c: git stash list - to check list of stash 
- 
+d: git stash clear - remove all stash from list or stash memory
+
+34: Creating workflow in gihub :https://www.youtube.com/watch?v=TN0AUX4cn0Y&list=PL5OhSdfH4uDsyUM02ZHl2mOYBpihCYsml&index=26
