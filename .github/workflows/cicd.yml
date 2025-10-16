@@ -1,6 +1,6 @@
 name: First Job
 
-On:
+on:
   push:
     branches: [ main ]
 
@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    -name: running command on Linux
-     run: echo "raghav is super"
+    - name: running command on Linux
+      run: echo "raghav is super"
