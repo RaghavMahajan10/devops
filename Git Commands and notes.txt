@@ -123,3 +123,6 @@ d: git stash clear - remove all stash from list or stash memory
 | `0 0 1 * *`         | First day of every month                       |
 | `0 18 * * 1-5`      | Weekdays at 6 PM (Mon–Fri)                     |
 | `*/10 9-17 * * 1-5` | Every 10 mins between 9 AM–5 PM, Monday–Friday |
+
+
+36: Yaml tuturoial follow file - learn.Yaml

@@ -1,0 +1,29 @@
+# total we have 4 types
+# - type1 key values
+# - type2 obejcts
+# - type3 lists
+# - type4 lists of objects
+
+# Example of type1 key values
+name: Learn type1
+age: 25
+
+# Example of type2 objects
+server:
+  host: localhost
+  port: 8080
+
+# Example of type3 lists
+fruits:
+  - apple
+  - banana
+  - cherry
+
+# Example of type4 lists of objects
+employees:
+  - name: John Doe
+    position: Developer
+    age: 30
+  - name: Jane Smith
+    position: Designer
+    age: 28      
