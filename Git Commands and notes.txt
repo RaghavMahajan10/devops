@@ -126,3 +126,12 @@ d: git stash clear - remove all stash from list or stash memory
 
 
 36: Yaml tuturoial follow file - learn.Yaml
+
+37: caching - it will make workflow executio fast by storing modules etc in cache memory
+
+38: Artifacts  - it will store the output like test outputs , build outputs etc 
+
+39: job concurrency - it will make sure only latest code will be taken in case of multiple 
+commit instead of keeping all in queque
+
+40:
