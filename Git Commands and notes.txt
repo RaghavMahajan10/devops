@@ -134,4 +134,5 @@ d: git stash clear - remove all stash from list or stash memory
 39: job concurrency - it will make sure only latest code will be taken in case of multiple 
 commit instead of keeping all in queque
 
-40:
+40: SSH Key: it is faster and safer compared to https , in this credentials are stored in key and value pairs 
+cmd - ssh-keygen -t ed25519
