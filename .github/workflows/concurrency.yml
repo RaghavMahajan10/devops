@@ -1,0 +1,16 @@
+name: concurrency
+
+on:
+  push:
+    branches: main
+jobs:
+  concurrency-job:
+    runs-on: ubuntu-latest
+
+    concurrency:
+      group: deploy
+      cancel-in-progress: true
+
+    steps: 
+      - name: just run the print statement
+        run: echo "hello raghav, how are you"
