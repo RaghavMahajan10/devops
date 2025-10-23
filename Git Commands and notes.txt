@@ -86,7 +86,8 @@ b: git diff --staged - stage level
 c: git diff origin/main  - branch level 
 d: git commit commit_id_1 commit_id_2  - commit level
 
-32: git commit -a -m "message" - this command will help to add changes to stage area 
+32: git commit -a -m "message" - this command will help to add changes to stage area , but it will not add newly added files
+it will only add modified files
 
 33: git stash - it will remove the changes temporary , usecase when u need to change branch and dont
 want to bring this branch change to other branch 
